@@ -11,7 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.min.css1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lab5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -61,7 +76,7 @@
     &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java Projects/Shop_kurs3/Shop/goods.sql&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java Projects/Shop_kurs3/Shop/sql.sql&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -90,11 +105,11 @@
       <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\dao\repository" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\dao\entity" />
+      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\WEB-INF\css" />
       <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\WEB-INF\img" />
       <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\htmlBuilder" />
-      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\java\ua\edu\nung\pz\view" />
-      <recent name="D:\Java Projects\Shop_kurs3\Shop" />
-      <recent name="D:\Java Projects\Shop_kurs3\Shop\src\main\webapp\html" />
     </key>
   </component>
   <component name="RunManager">
@@ -268,6 +283,28 @@
       <workItem from="1713508394898" duration="2723000" />
       <workItem from="1713764495440" duration="870000" />
       <workItem from="1713894339183" duration="1354000" />
+      <workItem from="1713937474720" duration="435000" />
+      <workItem from="1714669143340" duration="2722000" />
+      <workItem from="1714717137410" duration="617000" />
+      <workItem from="1714972122424" duration="1772000" />
+      <workItem from="1714986563908" duration="1606000" />
+      <workItem from="1714997528162" duration="1767000" />
+      <workItem from="1715000315523" duration="698000" />
+      <workItem from="1715074100953" duration="712000" />
+      <workItem from="1715276382361" duration="15000" />
+      <workItem from="1715323566494" duration="2048000" />
+      <workItem from="1715576684398" duration="2087000" />
+      <workItem from="1715791005931" duration="441000" />
+      <workItem from="1715844285414" duration="18000" />
+      <workItem from="1715845700252" duration="4116000" />
+      <workItem from="1715856020010" duration="66000" />
+      <workItem from="1716129494314" duration="1204000" />
+      <workItem from="1716131106086" duration="753000" />
+      <workItem from="1716826902584" duration="769000" />
+      <workItem from="1716996735901" duration="4530000" />
+      <workItem from="1717391780270" duration="2835000" />
+      <workItem from="1717577070313" duration="2041000" />
+      <workItem from="1717603902879" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <option name="closed" value="true" />
@@ -293,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713894926321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3">
+      <option name="closed" value="true" />
+      <created>1713937572483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713937572483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +352,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Lab4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

@@ -17,11 +17,11 @@ create table goods
 (
     id          int auto_increment
         primary key,
-    name        varchar(60)  not null,
-    description text null,
-    brand       varchar(20)  null,
-    photo       json         null,
-    likes       int          null
+    name        varchar(60) not null,
+    description text        null,
+    brand       varchar(20) null,
+    photo       json        null,
+    likes       int         null
 );
 
 create table webapp.types
@@ -62,3 +62,16 @@ create table prices
         foreign key (good_id) references goods (id)
             on update set null on delete set null
 );
+
+create table webapp.orders
+(
+    id         int auto_increment
+        primary key,
+    user_id    int              not null,
+    price_id   int              not null,
+    is_paid    bit default b'0' not null,
+    created_at datetime         not null,
+    deleted_at datetime         null
+);
+
+
