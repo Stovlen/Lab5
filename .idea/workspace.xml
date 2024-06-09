@@ -10,18 +10,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.min.css1" afterDir="false" />
+    <list default="true" id="255ec345-c6d8-4d5b-b1a2-e029d0dbf3f6" name="Changes" comment="4">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/CartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/GoodsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/controller/StartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/view/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/pz/dao/repository/OrderRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +300,11 @@
       <workItem from="1716996735901" duration="4530000" />
       <workItem from="1717391780270" duration="2835000" />
       <workItem from="1717577070313" duration="2041000" />
-      <workItem from="1717603902879" duration="1266000" />
+      <workItem from="1717603902879" duration="4564000" />
+      <workItem from="1717680410987" duration="2092000" />
+      <workItem from="1717742073658" duration="2769000" />
+      <workItem from="1717770757429" duration="708000" />
+      <workItem from="1717935844648" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <option name="closed" value="true" />
@@ -338,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713937572483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4">
+      <option name="closed" value="true" />
+      <created>1717605222211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717605222211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +383,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="2" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
 </project>
